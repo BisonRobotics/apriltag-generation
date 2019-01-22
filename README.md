@@ -1,22 +1,22 @@
-AprilTag-Generation
-===================
+# AprilTag-Generation
 
 Generate AprilTags in custom layouts for [AprilTag 3](https://github.com/AprilRobotics/apriltag-generation).
 
-# NRMC Usage
-## Generate tag16h6 family
+## NRMC Usage
+### Generate tag16h6 family
 ```
 ant
 java -cp april.jar april.tag.TagFamilyGenerator classic_8 6
 ```
-## Generate C files and Tags
+### Generate C files and Tags
 ```
+ant
 java -cp april.jar april.tag.TagToC april.tag.Tag16h6
 java -cp april.jar april.tag.GenerateTags april.tag.Tag16h6 build/Tag16h6
 ```
 
 
-# Original Example Usage
+## Original Example Usage
 Example usage for generating the 21h7 circular tag family:
 ```
 $ ant
