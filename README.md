@@ -3,7 +3,7 @@
 Generate AprilTags in custom layouts for [AprilTag 3](https://github.com/AprilRobotics/apriltag-generation).
 
 ## NRMC Usage
-### Generate tag16h6 family
+### Generate Tag16h6 family
 ```
 ant
 java -cp april.jar april.tag.TagFamilyGenerator classic_8 6
